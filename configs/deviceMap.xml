@@ -1,0 +1,260 @@
+
+<device-mapping dm-version="02" rb-version="1" data-lpart-sectors="0">
+  <spus num="02" />
+  <spu spaid="01" slot="01" hwid="1004" platform-family="rseries" newSpu="N" flags="D" hostdm-ver="02">
+    <datapartitions num="24">
+      <datapartition device-id="00" lpart-size="0" partition-type="Data" device-name="md0" raid-level="1" num-devices="2" flags="N" data-slice="29">
+        <logical-partition lun-guid="30E0A01XTF3R" partition-id="13" role="Mirror" lun-group-id="29" />
+        <logical-partition lun-guid="30H0A02CTF3R" partition-id="2" role="Primary" lun-group-id="29" />
+      </datapartition>
+      <datapartition device-id="01" lpart-size="0" partition-type="Data" device-name="md1" raid-level="1" num-devices="2" flags="N" data-slice="30">
+        <logical-partition lun-guid="3090A06STF3R" partition-id="2" role="Primary" lun-group-id="30" />
+        <logical-partition lun-guid="30S0A01MTF3R" partition-id="13" role="Mirror" lun-group-id="30" />
+      </datapartition>
+      <datapartition device-id="02" lpart-size="0" partition-type="Data" device-name="md2" raid-level="1" num-devices="2" flags="N" data-slice="45">
+        <logical-partition lun-guid="3090A05QTF3R" partition-id="13" role="Mirror" lun-group-id="45" />
+        <logical-partition lun-guid="3090A069TF3R" partition-id="2" role="Primary" lun-group-id="45" />
+      </datapartition>
+      <datapartition device-id="03" lpart-size="0" partition-type="Data" device-name="md3" raid-level="1" num-devices="2" flags="N" data-slice="46">
+        <logical-partition lun-guid="20X0A00HT4YF" partition-id="2" role="Primary" lun-group-id="46" />
+        <logical-partition lun-guid="30Q0A0J3TF3R" partition-id="13" role="Mirror" lun-group-id="46" />
+      </datapartition>
+      <datapartition device-id="04" lpart-size="0" partition-type="Data" device-name="md4" raid-level="1" num-devices="2" flags="N" data-slice="47">
+        <logical-partition lun-guid="30E0A01XTF3R" partition-id="12" role="Mirror" lun-group-id="47" />
+        <logical-partition lun-guid="30H0A02CTF3R" partition-id="3" role="Primary" lun-group-id="47" />
+      </datapartition>
+      <datapartition device-id="05" lpart-size="0" partition-type="Data" device-name="md5" raid-level="1" num-devices="2" flags="N" data-slice="48">
+        <logical-partition lun-guid="3090A06STF3R" partition-id="3" role="Primary" lun-group-id="48" />
+        <logical-partition lun-guid="30S0A01MTF3R" partition-id="12" role="Mirror" lun-group-id="48" />
+      </datapartition>
+      <datapartition device-id="06" lpart-size="0" partition-type="Data" device-name="md6" raid-level="1" num-devices="2" flags="N" data-slice="7">
+        <logical-partition lun-guid="3090A05QTF3R" partition-id="12" role="Mirror" lun-group-id="7" />
+        <logical-partition lun-guid="3090A069TF3R" partition-id="3" role="Primary" lun-group-id="7" />
+      </datapartition>
+      <datapartition device-id="07" lpart-size="0" partition-type="Data" device-name="md7" raid-level="1" num-devices="2" flags="N" data-slice="8">
+        <logical-partition lun-guid="20X0A00HT4YF" partition-id="3" role="Primary" lun-group-id="8" />
+        <logical-partition lun-guid="30Q0A0J3TF3R" partition-id="12" role="Mirror" lun-group-id="8" />
+      </datapartition>
+      <datapartition device-id="08" lpart-size="0" partition-type="Data" device-name="md8" raid-level="1" num-devices="2" flags="N" data-slice="3">
+        <logical-partition lun-guid="30E0A01XTF3R" partition-id="11" role="Mirror" lun-group-id="3" />
+        <logical-partition lun-guid="30H0A02CTF3R" partition-id="4" role="Primary" lun-group-id="3" />
+      </datapartition>
+      <datapartition device-id="09" lpart-size="0" partition-type="Data" device-name="md9" raid-level="1" num-devices="2" flags="N" data-slice="4">
+        <logical-partition lun-guid="3090A06STF3R" partition-id="4" role="Primary" lun-group-id="4" />
+        <logical-partition lun-guid="30S0A01MTF3R" partition-id="11" role="Mirror" lun-group-id="4" />
+      </datapartition>
+      <datapartition device-id="10" lpart-size="0" partition-type="Data" device-name="md10" raid-level="1" num-devices="2" flags="N" data-slice="21">
+        <logical-partition lun-guid="3090A05QTF3R" partition-id="11" role="Mirror" lun-group-id="21" />
+        <logical-partition lun-guid="3090A069TF3R" partition-id="4" role="Primary" lun-group-id="21" />
+      </datapartition>
+      <datapartition device-id="11" lpart-size="0" partition-type="Data" device-name="md11" raid-level="1" num-devices="2" flags="N" data-slice="22">
+        <logical-partition lun-guid="20X0A00HT4YF" partition-id="4" role="Primary" lun-group-id="22" />
+        <logical-partition lun-guid="30Q0A0J3TF3R" partition-id="11" role="Mirror" lun-group-id="22" />
+      </datapartition>
+      <datapartition device-id="12" lpart-size="0" partition-type="Data" device-name="md12" raid-level="1" num-devices="2" flags="N" data-slice="33">
+        <logical-partition lun-guid="30E0A01XTF3R" partition-id="10" role="Mirror" lun-group-id="33" />
+        <logical-partition lun-guid="30H0A02CTF3R" partition-id="5" role="Primary" lun-group-id="33" />
+      </datapartition>
+      <datapartition device-id="13" lpart-size="0" partition-type="Data" device-name="md13" raid-level="1" num-devices="2" flags="N" data-slice="34">
+        <logical-partition lun-guid="3090A06STF3R" partition-id="5" role="Primary" lun-group-id="34" />
+        <logical-partition lun-guid="30S0A01MTF3R" partition-id="10" role="Mirror" lun-group-id="34" />
+      </datapartition>
+      <datapartition device-id="14" lpart-size="0" partition-type="Data" device-name="md14" raid-level="1" num-devices="2" flags="N" data-slice="23">
+        <logical-partition lun-guid="3090A05QTF3R" partition-id="10" role="Mirror" lun-group-id="23" />
+        <logical-partition lun-guid="3090A069TF3R" partition-id="5" role="Primary" lun-group-id="23" />
+      </datapartition>
+      <datapartition device-id="15" lpart-size="0" partition-type="Data" device-name="md15" raid-level="1" num-devices="2" flags="N" data-slice="24">
+        <logical-partition lun-guid="20X0A00HT4YF" partition-id="5" role="Primary" lun-group-id="24" />
+        <logical-partition lun-guid="30Q0A0J3TF3R" partition-id="10" role="Mirror" lun-group-id="24" />
+      </datapartition>
+      <datapartition device-id="16" lpart-size="0" partition-type="Data" device-name="md16" raid-level="1" num-devices="2" flags="N" data-slice="39">
+        <logical-partition lun-guid="30E0A01XTF3R" partition-id="9" role="Mirror" lun-group-id="39" />
+        <logical-partition lun-guid="30H0A02CTF3R" partition-id="6" role="Primary" lun-group-id="39" />
+      </datapartition>
+      <datapartition device-id="17" lpart-size="0" partition-type="Data" device-name="md17" raid-level="1" num-devices="2" flags="N" data-slice="40">
+        <logical-partition lun-guid="3090A06STF3R" partition-id="6" role="Primary" lun-group-id="40" />
+        <logical-partition lun-guid="30S0A01MTF3R" partition-id="9" role="Mirror" lun-group-id="40" />
+      </datapartition>
+      <datapartition device-id="18" lpart-size="0" partition-type="Data" device-name="md18" raid-level="1" num-devices="2" flags="N" data-slice="1">
+        <logical-partition lun-guid="3090A05QTF3R" partition-id="9" role="Mirror" lun-group-id="1" />
+        <logical-partition lun-guid="3090A069TF3R" partition-id="6" role="Primary" lun-group-id="1" />
+      </datapartition>
+      <datapartition device-id="19" lpart-size="0" partition-type="Data" device-name="md19" raid-level="1" num-devices="2" flags="N" data-slice="2">
+        <logical-partition lun-guid="20X0A00HT4YF" partition-id="6" role="Primary" lun-group-id="2" />
+        <logical-partition lun-guid="30Q0A0J3TF3R" partition-id="9" role="Mirror" lun-group-id="2" />
+      </datapartition>
+      <datapartition device-id="20" lpart-size="0" partition-type="Data" device-name="md20" raid-level="1" num-devices="2" flags="N" data-slice="37">
+        <logical-partition lun-guid="30E0A01XTF3R" partition-id="8" role="Mirror" lun-group-id="37" />
+        <logical-partition lun-guid="30H0A02CTF3R" partition-id="7" role="Primary" lun-group-id="37" />
+      </datapartition>
+      <datapartition device-id="21" lpart-size="0" partition-type="Data" device-name="md21" raid-level="1" num-devices="2" flags="N" data-slice="38">
+        <logical-partition lun-guid="3090A06STF3R" partition-id="7" role="Primary" lun-group-id="38" />
+        <logical-partition lun-guid="30S0A01MTF3R" partition-id="8" role="Mirror" lun-group-id="38" />
+      </datapartition>
+      <datapartition device-id="22" lpart-size="0" partition-type="Data" device-name="md22" raid-level="1" num-devices="2" flags="N" data-slice="43">
+        <logical-partition lun-guid="3090A05QTF3R" partition-id="8" role="Mirror" lun-group-id="43" />
+        <logical-partition lun-guid="3090A069TF3R" partition-id="7" role="Primary" lun-group-id="43" />
+      </datapartition>
+      <datapartition device-id="23" lpart-size="0" partition-type="Data" device-name="md23" raid-level="1" num-devices="2" flags="N" data-slice="44">
+        <logical-partition lun-guid="20X0A00HT4YF" partition-id="7" role="Primary" lun-group-id="44" />
+        <logical-partition lun-guid="30Q0A0J3TF3R" partition-id="8" role="Mirror" lun-group-id="44" />
+      </datapartition>
+    </datapartitions>
+    <systempartitions num="01">
+      <systempartition device-id="100" lpart-size="0" partition-type="NzLocal" device-name="md100" raid-level="10" num-devices="4" flags="N">
+        <logical-partition lun-guid="20X0A00HT4YF" partition-id="1" role="Mirror" lun-group-id="-100" />
+        <logical-partition lun-guid="3090A069TF3R" partition-id="1" role="Mirror" lun-group-id="-100" />
+        <logical-partition lun-guid="3090A06STF3R" partition-id="1" role="Primary" lun-group-id="-100" />
+        <logical-partition lun-guid="30H0A02CTF3R" partition-id="1" role="Primary" lun-group-id="-100" />
+      </systempartition>
+    </systempartitions>
+    <luns num="08">
+      <lun lun-guid="20X0A00HT4YF" flags="N" />
+      <lun lun-guid="3090A05QTF3R" flags="" />
+      <lun lun-guid="3090A069TF3R" flags="N" />
+      <lun lun-guid="3090A06STF3R" flags="N" />
+      <lun lun-guid="30E0A01XTF3R" flags="" />
+      <lun lun-guid="30H0A02CTF3R" flags="N" />
+      <lun lun-guid="30Q0A0J3TF3R" flags="" />
+      <lun lun-guid="30S0A01MTF3R" flags="" />
+    </luns>
+    <disks num="08">
+      <disk hwid="1007" vendor="NVMe" model="KCM5DRUG3T84" serial-number="30H0A02CTF3R" hw-version="T2GC" enclosure-id="1" position="1" />
+      <disk hwid="1008" vendor="NVMe" model="KCM5DRUG3T84" serial-number="3090A06STF3R" hw-version="T2GC" enclosure-id="1" position="2" />
+      <disk hwid="1009" vendor="NVMe" model="KCM5DRUG3T84" serial-number="3090A069TF3R" hw-version="T2GC" enclosure-id="1" position="3" />
+      <disk hwid="1010" vendor="NVMe" model="KCM5DRUG3T84" serial-number="20X0A00HT4YF" hw-version="0107" enclosure-id="1" position="4" />
+      <disk hwid="1012" vendor="NVMe" model="KCM5DRUG3T84" serial-number="30E0A01XTF3R" hw-version="T2GC" enclosure-id="2" position="1" />
+      <disk hwid="1013" vendor="NVMe" model="KCM5DRUG3T84" serial-number="30S0A01MTF3R" hw-version="T2GC" enclosure-id="2" position="2" />
+      <disk hwid="1014" vendor="NVMe" model="KCM5DRUG3T84" serial-number="3090A05QTF3R" hw-version="T2GC" enclosure-id="2" position="3" />
+      <disk hwid="1015" vendor="NVMe" model="KCM5DRUG3T84" serial-number="30Q0A0J3TF3R" hw-version="T2GC" enclosure-id="2" position="4" />
+    </disks>
+  </spu>
+  <spu spaid="01" slot="02" hwid="1005" platform-family="rseries" newSpu="N" flags="" hostdm-ver="02">
+    <datapartitions num="24">
+      <datapartition device-id="00" lpart-size="0" partition-type="Data" device-name="md0" raid-level="1" num-devices="2" flags="N" data-slice="41">
+        <logical-partition lun-guid="30E0A01XTF3R" partition-id="2" role="Primary" lun-group-id="41" />
+        <logical-partition lun-guid="30H0A02CTF3R" partition-id="13" role="Mirror" lun-group-id="41" />
+      </datapartition>
+      <datapartition device-id="01" lpart-size="0" partition-type="Data" device-name="md1" raid-level="1" num-devices="2" flags="N" data-slice="42">
+        <logical-partition lun-guid="3090A06STF3R" partition-id="13" role="Mirror" lun-group-id="42" />
+        <logical-partition lun-guid="30S0A01MTF3R" partition-id="2" role="Primary" lun-group-id="42" />
+      </datapartition>
+      <datapartition device-id="02" lpart-size="0" partition-type="Data" device-name="md2" raid-level="1" num-devices="2" flags="N" data-slice="11">
+        <logical-partition lun-guid="3090A05QTF3R" partition-id="2" role="Primary" lun-group-id="11" />
+        <logical-partition lun-guid="3090A069TF3R" partition-id="13" role="Mirror" lun-group-id="11" />
+      </datapartition>
+      <datapartition device-id="03" lpart-size="0" partition-type="Data" device-name="md3" raid-level="1" num-devices="2" flags="N" data-slice="12">
+        <logical-partition lun-guid="20X0A00HT4YF" partition-id="13" role="Mirror" lun-group-id="12" />
+        <logical-partition lun-guid="30Q0A0J3TF3R" partition-id="2" role="Primary" lun-group-id="12" />
+      </datapartition>
+      <datapartition device-id="04" lpart-size="0" partition-type="Data" device-name="md4" raid-level="1" num-devices="2" flags="N" data-slice="27">
+        <logical-partition lun-guid="30E0A01XTF3R" partition-id="3" role="Primary" lun-group-id="27" />
+        <logical-partition lun-guid="30H0A02CTF3R" partition-id="12" role="Mirror" lun-group-id="27" />
+      </datapartition>
+      <datapartition device-id="05" lpart-size="0" partition-type="Data" device-name="md5" raid-level="1" num-devices="2" flags="N" data-slice="28">
+        <logical-partition lun-guid="3090A06STF3R" partition-id="12" role="Mirror" lun-group-id="28" />
+        <logical-partition lun-guid="30S0A01MTF3R" partition-id="3" role="Primary" lun-group-id="28" />
+      </datapartition>
+      <datapartition device-id="06" lpart-size="0" partition-type="Data" device-name="md6" raid-level="1" num-devices="2" flags="N" data-slice="5">
+        <logical-partition lun-guid="3090A05QTF3R" partition-id="3" role="Primary" lun-group-id="5" />
+        <logical-partition lun-guid="3090A069TF3R" partition-id="12" role="Mirror" lun-group-id="5" />
+      </datapartition>
+      <datapartition device-id="07" lpart-size="0" partition-type="Data" device-name="md7" raid-level="1" num-devices="2" flags="N" data-slice="6">
+        <logical-partition lun-guid="20X0A00HT4YF" partition-id="12" role="Mirror" lun-group-id="6" />
+        <logical-partition lun-guid="30Q0A0J3TF3R" partition-id="3" role="Primary" lun-group-id="6" />
+      </datapartition>
+      <datapartition device-id="08" lpart-size="0" partition-type="Data" device-name="md8" raid-level="1" num-devices="2" flags="N" data-slice="9">
+        <logical-partition lun-guid="30E0A01XTF3R" partition-id="4" role="Primary" lun-group-id="9" />
+        <logical-partition lun-guid="30H0A02CTF3R" partition-id="11" role="Mirror" lun-group-id="9" />
+      </datapartition>
+      <datapartition device-id="09" lpart-size="0" partition-type="Data" device-name="md9" raid-level="1" num-devices="2" flags="N" data-slice="10">
+        <logical-partition lun-guid="3090A06STF3R" partition-id="11" role="Mirror" lun-group-id="10" />
+        <logical-partition lun-guid="30S0A01MTF3R" partition-id="4" role="Primary" lun-group-id="10" />
+      </datapartition>
+      <datapartition device-id="10" lpart-size="0" partition-type="Data" device-name="md10" raid-level="1" num-devices="2" flags="N" data-slice="17">
+        <logical-partition lun-guid="3090A05QTF3R" partition-id="4" role="Primary" lun-group-id="17" />
+        <logical-partition lun-guid="3090A069TF3R" partition-id="11" role="Mirror" lun-group-id="17" />
+      </datapartition>
+      <datapartition device-id="11" lpart-size="0" partition-type="Data" device-name="md11" raid-level="1" num-devices="2" flags="N" data-slice="18">
+        <logical-partition lun-guid="20X0A00HT4YF" partition-id="11" role="Mirror" lun-group-id="18" />
+        <logical-partition lun-guid="30Q0A0J3TF3R" partition-id="4" role="Primary" lun-group-id="18" />
+      </datapartition>
+      <datapartition device-id="12" lpart-size="0" partition-type="Data" device-name="md12" raid-level="1" num-devices="2" flags="N" data-slice="35">
+        <logical-partition lun-guid="30E0A01XTF3R" partition-id="5" role="Primary" lun-group-id="35" />
+        <logical-partition lun-guid="30H0A02CTF3R" partition-id="10" role="Mirror" lun-group-id="35" />
+      </datapartition>
+      <datapartition device-id="13" lpart-size="0" partition-type="Data" device-name="md13" raid-level="1" num-devices="2" flags="N" data-slice="36">
+        <logical-partition lun-guid="3090A06STF3R" partition-id="10" role="Mirror" lun-group-id="36" />
+        <logical-partition lun-guid="30S0A01MTF3R" partition-id="5" role="Primary" lun-group-id="36" />
+      </datapartition>
+      <datapartition device-id="14" lpart-size="0" partition-type="Data" device-name="md14" raid-level="1" num-devices="2" flags="N" data-slice="15">
+        <logical-partition lun-guid="3090A05QTF3R" partition-id="5" role="Primary" lun-group-id="15" />
+        <logical-partition lun-guid="3090A069TF3R" partition-id="10" role="Mirror" lun-group-id="15" />
+      </datapartition>
+      <datapartition device-id="15" lpart-size="0" partition-type="Data" device-name="md15" raid-level="1" num-devices="2" flags="N" data-slice="16">
+        <logical-partition lun-guid="20X0A00HT4YF" partition-id="10" role="Mirror" lun-group-id="16" />
+        <logical-partition lun-guid="30Q0A0J3TF3R" partition-id="5" role="Primary" lun-group-id="16" />
+      </datapartition>
+      <datapartition device-id="16" lpart-size="0" partition-type="Data" device-name="md16" raid-level="1" num-devices="2" flags="N" data-slice="25">
+        <logical-partition lun-guid="30E0A01XTF3R" partition-id="6" role="Primary" lun-group-id="25" />
+        <logical-partition lun-guid="30H0A02CTF3R" partition-id="9" role="Mirror" lun-group-id="25" />
+      </datapartition>
+      <datapartition device-id="17" lpart-size="0" partition-type="Data" device-name="md17" raid-level="1" num-devices="2" flags="N" data-slice="26">
+        <logical-partition lun-guid="3090A06STF3R" partition-id="9" role="Mirror" lun-group-id="26" />
+        <logical-partition lun-guid="30S0A01MTF3R" partition-id="6" role="Primary" lun-group-id="26" />
+      </datapartition>
+      <datapartition device-id="18" lpart-size="0" partition-type="Data" device-name="md18" raid-level="1" num-devices="2" flags="N" data-slice="19">
+        <logical-partition lun-guid="3090A05QTF3R" partition-id="6" role="Primary" lun-group-id="19" />
+        <logical-partition lun-guid="3090A069TF3R" partition-id="9" role="Mirror" lun-group-id="19" />
+      </datapartition>
+      <datapartition device-id="19" lpart-size="0" partition-type="Data" device-name="md19" raid-level="1" num-devices="2" flags="N" data-slice="20">
+        <logical-partition lun-guid="20X0A00HT4YF" partition-id="9" role="Mirror" lun-group-id="20" />
+        <logical-partition lun-guid="30Q0A0J3TF3R" partition-id="6" role="Primary" lun-group-id="20" />
+      </datapartition>
+      <datapartition device-id="20" lpart-size="0" partition-type="Data" device-name="md20" raid-level="1" num-devices="2" flags="N" data-slice="13">
+        <logical-partition lun-guid="30E0A01XTF3R" partition-id="7" role="Primary" lun-group-id="13" />
+        <logical-partition lun-guid="30H0A02CTF3R" partition-id="8" role="Mirror" lun-group-id="13" />
+      </datapartition>
+      <datapartition device-id="21" lpart-size="0" partition-type="Data" device-name="md21" raid-level="1" num-devices="2" flags="N" data-slice="14">
+        <logical-partition lun-guid="3090A06STF3R" partition-id="8" role="Mirror" lun-group-id="14" />
+        <logical-partition lun-guid="30S0A01MTF3R" partition-id="7" role="Primary" lun-group-id="14" />
+      </datapartition>
+      <datapartition device-id="22" lpart-size="0" partition-type="Data" device-name="md22" raid-level="1" num-devices="2" flags="N" data-slice="31">
+        <logical-partition lun-guid="3090A05QTF3R" partition-id="7" role="Primary" lun-group-id="31" />
+        <logical-partition lun-guid="3090A069TF3R" partition-id="8" role="Mirror" lun-group-id="31" />
+      </datapartition>
+      <datapartition device-id="23" lpart-size="0" partition-type="Data" device-name="md23" raid-level="1" num-devices="2" flags="N" data-slice="32">
+        <logical-partition lun-guid="20X0A00HT4YF" partition-id="8" role="Mirror" lun-group-id="32" />
+        <logical-partition lun-guid="30Q0A0J3TF3R" partition-id="7" role="Primary" lun-group-id="32" />
+      </datapartition>
+    </datapartitions>
+    <systempartitions num="01">
+      <systempartition device-id="100" lpart-size="0" partition-type="NzLocal" device-name="md100" raid-level="10" num-devices="4" flags="N">
+        <logical-partition lun-guid="3090A05QTF3R" partition-id="1" role="Mirror" lun-group-id="-100" />
+        <logical-partition lun-guid="30E0A01XTF3R" partition-id="1" role="Primary" lun-group-id="-100" />
+        <logical-partition lun-guid="30Q0A0J3TF3R" partition-id="1" role="Mirror" lun-group-id="-100" />
+        <logical-partition lun-guid="30S0A01MTF3R" partition-id="1" role="Primary" lun-group-id="-100" />
+      </systempartition>
+    </systempartitions>
+    <luns num="08">
+      <lun lun-guid="20X0A00HT4YF" flags="" />
+      <lun lun-guid="3090A05QTF3R" flags="N" />
+      <lun lun-guid="3090A069TF3R" flags="" />
+      <lun lun-guid="3090A06STF3R" flags="" />
+      <lun lun-guid="30E0A01XTF3R" flags="N" />
+      <lun lun-guid="30H0A02CTF3R" flags="" />
+      <lun lun-guid="30Q0A0J3TF3R" flags="N" />
+      <lun lun-guid="30S0A01MTF3R" flags="N" />
+    </luns>
+    <disks num="08">
+      <disk hwid="1007" vendor="NVMe" model="KCM5DRUG3T84" serial-number="30H0A02CTF3R" hw-version="T2GC" enclosure-id="1" position="1" />
+      <disk hwid="1008" vendor="NVMe" model="KCM5DRUG3T84" serial-number="3090A06STF3R" hw-version="T2GC" enclosure-id="1" position="2" />
+      <disk hwid="1009" vendor="NVMe" model="KCM5DRUG3T84" serial-number="3090A069TF3R" hw-version="T2GC" enclosure-id="1" position="3" />
+      <disk hwid="1010" vendor="NVMe" model="KCM5DRUG3T84" serial-number="20X0A00HT4YF" hw-version="0107" enclosure-id="1" position="4" />
+      <disk hwid="1012" vendor="NVMe" model="KCM5DRUG3T84" serial-number="30E0A01XTF3R" hw-version="T2GC" enclosure-id="2" position="1" />
+      <disk hwid="1013" vendor="NVMe" model="KCM5DRUG3T84" serial-number="30S0A01MTF3R" hw-version="T2GC" enclosure-id="2" position="2" />
+      <disk hwid="1014" vendor="NVMe" model="KCM5DRUG3T84" serial-number="3090A05QTF3R" hw-version="T2GC" enclosure-id="2" position="3" />
+      <disk hwid="1015" vendor="NVMe" model="KCM5DRUG3T84" serial-number="30Q0A0J3TF3R" hw-version="T2GC" enclosure-id="2" position="4" />
+    </disks>
+  </spu>
+</device-mapping>
