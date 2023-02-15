@@ -1,26 +1,26 @@
-pipeline {
+peline {
     agent { 
             label "$MachineType" 
         }
     stages {
         stage('Build') {
             steps {
-              //checkout([$class: 'GitSCM', 
-                //branches: [[name: '*/main']],
-                //doGenerateSubmoduleConfigurations: false,
-                //extensions: [[$class: 'CleanCheckout']],
-                //submoduleCfg: [], 
-              
-                // userRemoteConfigs: [[url: 'https://github.com/nzuser2023/Sysmgr-Automation.git']]])
-                sh "python3 Test.py $TestArea $TestCase $MachineType"
-                
-          }
+                        sh "python3 main_test.py $TestArea $TestCase $MachineType"
+                script {
+                         if (manager.logContains('.*Exception*')) {
+                                                                    error("Build failed because of this and that..")    
+                         }
+                }
+            }
         }
     }
-   	post {
-      		always {
-        		junit skipPublishingChecks: true, testResults: '**/xmlreport/*.xml'
+       post {
+              always {
+                junit skipPublishingChecks: true, testResults: '**/xmlreport/*.xml'
+                echo "This is the end of pipeline script"
+                    }
+
  
-                       }
-    	      }
+
+    }
 }
