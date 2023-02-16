@@ -1,6 +1,6 @@
 from subprocess import call
 import os
-from constants import TestArea,TestCases
+from configs.constants import TestArea,TestCases
 
 class TestFramework:
     def __init__(self,testarea,testcase,server):       
@@ -24,6 +24,6 @@ class TestFramework:
 
     def execute_test(self,testcase,testarea):  
         if testcase == "All":
-            os.system('pytest tests --junitxml=./xmlreport/output.xml')
+            os.system('pytest ./tests --junitxml=./xmlreport/output.xml')
         else :
-            os.system('pytest tests/{tc}.py --junitxml=./xmlreport/output.xml'.format(tc = testcase))
+            os.system('pytest ./tests/{tc}.py --junitxml=./xmlreport/output.xml'.format(tc = testcase))

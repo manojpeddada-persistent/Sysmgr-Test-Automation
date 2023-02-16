@@ -1,7 +1,7 @@
 import sys
-import initializeDS
-from class_TestFramework import TestFramework
-import config
+from classes.class_TestFramework import TestFramework
+import configs
+import initialize.initializeDS as initializeDS
 
 # Parse the input from front end
 #testarea = sys.argv[config.TESTAREA]

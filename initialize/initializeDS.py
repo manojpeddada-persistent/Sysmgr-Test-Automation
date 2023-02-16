@@ -1,5 +1,5 @@
-from class_NPSInfo import NPSInfo
-from class_TestInfo import TestInfo
+from classes.class_NPSInfo import NPSInfo
+from classes.class_TestInfo import TestInfo
 from bs4 import BeautifulSoup
 from enum import Enum
 
@@ -18,7 +18,7 @@ class NPSInfoFromConfigFile(NPSInfo):
 		NPSInfo.__init__(self)
 	def parseDeviceMapConfig(self):
 		print("In parsing")
-		with open('deviceMap.xml', 'r') as f:
+		with open('./configs/deviceMap.xml', 'r') as f:
 			data = f.read()
 		Bs_data = BeautifulSoup(data, "xml")
 		spus = Bs_data.find('spus')
@@ -35,7 +35,7 @@ class NPSInfoFromConfigFile(NPSInfo):
 	def parseDiskSerialPerSPU(self):
 		noOfSpu = 0
 		diskserial = {}
-		with open('deviceMap.xml', 'r') as f:
+		with open('./configs/deviceMap.xml', 'r') as f:
 			data = f.read()
 		Bs_data = BeautifulSoup(data, "xml")
 		for x in Bs_data.find_all('spu'):
@@ -50,7 +50,7 @@ class NPSInfoFromConfigFile(NPSInfo):
 	    
 	def parseDiskInfo(self):
 		disk = {}
-		with open('deviceMap.xml', 'r') as f:
+		with open('./configs/deviceMap.xml', 'r') as f:
 			data = f.read()
 		Bs_data = BeautifulSoup(data, "xml")
 		for x in Bs_data.find_all('disks'):
