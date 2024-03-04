@@ -17,8 +17,8 @@ def Activating_failed_disk():
 	output = 'nzhw activate -id {i} -local'.format(i=fid)
 
     	result = subprocess.run(output, shell=True,encoding='utf-8',stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    	output = result.stderr.strip()
-    	expected_error_starts_with = "Error: cannot activate disk"
-    	assert output.startswith(expected_error_starts_with)
-    	print(output)
+	output = result.stderr.strip()
+	expected_error_starts_with = "Error: cannot activate disk"
+	assert output.startswith(expected_error_starts_with)
+	print(output)
 
