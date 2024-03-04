@@ -20,4 +20,4 @@ def Activating_failing_disk():
     	output = result.stderr.strip()
     	expected_error_starts_with = "Error: cannot activate disk"
     	assert output.startswith(expected_error_starts_with)
-    	print(output)
+    	print(output) 
