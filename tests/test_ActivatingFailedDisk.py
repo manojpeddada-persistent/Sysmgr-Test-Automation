@@ -21,6 +21,7 @@ def Activating_failed_disk():
 	res= subprocess.check_output(OP,shell=True,encoding='utf-8',universal_newlines=False).strip()
 	print("Disk Activated")
 	assert 1
+
     	#result = subprocess.run(output, shell=True,encoding='utf-8',stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 	#output = result.stderr.strip()
 	#expected_error_starts_with = "Error: cannot activate disk"
