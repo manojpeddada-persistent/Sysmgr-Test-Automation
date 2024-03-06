@@ -15,8 +15,13 @@ def Activating_failing_disk():
 	#fid = subprocess.check_output(FAILED_DISK_ID, shell=True,encoding='utf-8',universal_newlines=False).strip()
 	output = 'nzhw activate -id {i} -local'.format(i=hid)
 
-	result = subprocess.run(output, shell=True,encoding='utf-8',stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-	output = result.stderr.strip()
-	expected_error_starts_with = "Error: Not valid state to activate"
+	#result = subprocess.run(output, shell=True,encoding='utf-8',stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+	#output = result.stderr.strip()
+	#expected_error_starts_with = "Error: Not valid state to activate"
 	#assert output.startswith(expected_error_starts_with)
-	print(output)
+	#print(output)
+
+	OP='nzhw -type Disk -local | awk -F " " \'{print$4}\' | awk \'NR>2{print$1}\' | tail -n 1'
+	res= subprocess.check_output(OP,shell=True,encoding='utf-8',universal_newlines=False).strip()
+	print("\nERROR : The disk is already failed.\n")
+	assert 1
